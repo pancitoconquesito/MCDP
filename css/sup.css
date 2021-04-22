@@ -1,0 +1,52 @@
+#sup{
+    background-color: var(--CB);
+    padding: 5%;
+    
+}
+#sup .cont {
+    display: flex;
+}
+#sup .cont img{
+    width: 25%;
+    border-radius: 50%;
+}
+#sup .cont h1{
+    padding-left: 10%;
+}
+
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+    #sup{
+        margin-bottom: 10%; 
+    }
+    #sup .cont h1{
+        margin-top: auto;
+    }
+}
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    #sup{
+        font-size: 1.8rem;
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+    #sup{
+        font-size: 2.1rem;
+    }
+}
+/********************  1600 X ...***************************/
+@media (min-width: 1600px){
+    #sup{
+        padding: 4%;
+        
+    }
+    #sup .cont img{
+        width: 12%;
+    }
+}
