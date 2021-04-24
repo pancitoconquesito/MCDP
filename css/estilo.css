@@ -5,6 +5,7 @@
     --CD: #38343a;
     --CE: #bad0e5;
     --CF: #eaf1a8;
+    --CG: rgb(197, 196, 131);
 }
 body{
     font-size: 16px;
@@ -87,6 +88,14 @@ footer img{
 footer .Footer_texto{
     margin-top: auto;
     margin-bottom: auto;
+}
+.marco .url{
+    text-align: left;
+    
+}
+.marco .url a{
+    text-decoration: none;
+    color: var(--CG);
 }
 
 /********************  720 X 1024 ****************************/
